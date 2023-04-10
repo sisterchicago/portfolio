@@ -159,18 +159,34 @@
 							<p>I look forward to hearing from you!</p>
 
 						
-							<form action="https://submit-form.com/m9U22cMC">
+							<div id="emailFormCard" class="card">
+								<div id="subscribeForm" class="subscribe">
+									<h2>Contact Me</h2>
+									<p>Want to get in touch? Drop an e-mail!</p>
+									<form name="gform" id="gform" enctype="text/plain"  action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
+										<fieldset>
+											<input style="background:#3c3c44;margin-bottom:10px;" type="text" placeholder="Name" name="Googel_Entry_ID_Name" id="Google_entry_ID_Name" required>
+											<input style="background:#3c3c44;margin-bottom:10px;" type="email" placeholder="Email" name="Google_Entry_ID_Email" id="Google_Entry_ID_Email" required>
+											<textarea name="Google_Entry_ID_TextArea" class="emailFormCard-TextArea" placeholder="How can I help you?" id="Google_Entry_ID_TextArea" cols="30" rows="5" required></textarea>
+											<input type="submit" value="Send">
+										</fieldset>
+									</form>
+								</div>
+							</div>
+
+							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+							<!-- <form method="post" action="#">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" id="name" name="name" placeholder="Name" required="" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" id="email" name="email" placeholder="Email" required="" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message" required=""></textarea>
+										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
-										<button type="submit">Send Message</button>
+										<input type="submit" value='Send Message' />
 									</div>
 								</div>
-							</form>
+							</form> -->
 						
 						</div>
 					</section>
@@ -186,7 +202,14 @@
 					</ul>
 
 			</div>
-
+			<script type="text/javascript">
+				var Google_Entry_ID_Name="entry.1416717319"
+				var Google_Entry_ID_Email="entry.2145923340"
+				var Google_Entry_ID_TextArea="entry.355339717"
+				var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSflQBLIHKIeloBZW5_GgiGcwQX7UrPsiaX1W23weCanJ5VLEQ/viewform"
+			</script>
+			<script src="assets/js/replace-vars.js"></script>
+			<script type="text/javascript" src="assets/js/email-form.js"></script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
