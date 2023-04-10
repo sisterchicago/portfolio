@@ -206,9 +206,12 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	br {
+		font-size: 1em;
+	}
+
 	br.clear {
 		clear: both;
-		font-size: 1em;
 	}
 
 /* Container */
