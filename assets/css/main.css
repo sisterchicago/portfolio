@@ -142,6 +142,11 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
+		h3 > br {
+			font-size: 0.5em;
+			font-weight: lighter;
+		}
+
 	header {
 		margin: 0 0 2em 0;
 	}
