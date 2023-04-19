@@ -142,11 +142,6 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
-		h3 > br {
-			font-size: 0.5em;
-			font-weight: lighter;
-		}
-
 	header {
 		margin: 0 0 2em 0;
 	}
@@ -1994,7 +1989,7 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
+			background: #8ebebc;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
